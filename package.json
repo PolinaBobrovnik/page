@@ -1,0 +1,21 @@
+{
+  "name": "frontcamp",
+  "version": "1.0.0",
+  "description": "FrontCamp Mentoring Program BY Q4 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaBobrovnik/FrontCamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaBobrovnik/FrontCamp/issues"
+  },
+  "homepage": "https://github.com/PolinaBobrovnik/FrontCamp#readme",
+  "devDependencies": { 
+  }
+}

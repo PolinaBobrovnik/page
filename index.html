@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>NewsPolina</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,700" rel="stylesheet">
+	<!-- Stylesheets -->
+	<link href="plugin-frameworks/bootstrap.css" rel="stylesheet">
+	<link href="fonts/ionicons.css" rel="stylesheet">
+	<link href="common/styles.css" rel="stylesheet">	
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a class="logo" href="index.html"><b>NEWS<span class="yellow">POLINA</span></b></a>			
+			<a class="right-area src-btn" href="#" >
+				<i class="active src-icn ion-search"></i>
+				<i class="close-icn ion-close"></i>
+			</a>
+			<div class="src-form">
+				<form class="search">
+					<input class="search-input" type="text" placeholder="Search here">
+					<button class="search-submit" type="submit"><i class="ion-search"></i></a></button>
+                </form>
+			</div>
+            <section class="autosuggest hidden">CONTENT</section>			
+			<a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>		
+			<ul class="main-menu" id="main-menu">
+				<li><b>ALL NEWS</b></li>
+				<li data-name="business">BUSINESS</li>
+				<li data-name="entertainment">ENTERTAINMENT</li>
+				<li data-name="health">HEALTH</li>
+                <li data-name ="science">SCIENCE</li>
+                <li data-name="sports">SPORTS</li>
+                <li data-name= "technology">TECHNOLOGY</li>
+			</ul>
+			<div class="clearfix"></div>
+        </div>
+        <div class="container">
+            <form class="settings">
+                <div class="center hidden">
+                Show only top headlines
+                    <input checked type="checkbox" id="cbx" style="display:none" />
+                    <label for="cbx" class="toggle"><span></span></label>
+                    </div>
+                <div class="center-number">
+                <label for="number">Number of news</label>
+                    <input type="number" value="20" min="1" max="100" id="number">
+                </div>
+            </form>
+        </div>
+	</header>
+	<div class="container" id="main-content">
+	</div>
+	<!-- SCIPTS -->
+	<script src="plugin-frameworks/tether.min.js"></script>
+	<script src="plugin-frameworks/bootstrap.js"></script>
+    <script src="common/index.js"></script>
+</body>
+</html>
